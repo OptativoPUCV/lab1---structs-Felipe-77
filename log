@@ -43,3 +43,14 @@ Thu 09 Mar 2023 03:57:16 PM UTC:
  tests:  1|6
 total_score: 10/70
 bd4cc74
+Thu 09 Mar 2023 04:03:04 PM UTC: 
+ exercises.c | 14 ++++++++++----
+ 1 file changed, 10 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:37:8: error: ‘mayor’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   37 |   *max = mayor;
+      |   ~~~~~^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+1ed6ff9
