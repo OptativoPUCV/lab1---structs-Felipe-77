@@ -85,7 +85,7 @@ Vector * crearVector(int n) {
     
     arreglo->datos = calloc(n, sizeof(int));
 
-  return arreglo;
+  return arreglo
 }
 
 /*
