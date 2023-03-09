@@ -180,3 +180,14 @@ exercises.c:98:9: error: invalid type argument of ‘->’ (have ‘Vector’)
       |         ^~
 Compilation failed
 5b5095c
+Thu 09 Mar 2023 08:07:38 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:98:16: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   98 |     v[i].datos = valor;
+      |                ^
+cc1: all warnings being treated as errors
+Compilation failed
+f02be6b
