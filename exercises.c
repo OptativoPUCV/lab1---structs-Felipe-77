@@ -113,7 +113,7 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
     for (int q = 0; q < a->capacidad; q++)
-        c->datos[q] = a->datos[q] + b->daros[q];
+        c->datos[q] = a->datos[q] + b->datos[q];
 
 }
 
