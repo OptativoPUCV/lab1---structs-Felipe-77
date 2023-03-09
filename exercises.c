@@ -79,12 +79,11 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  Vector * arreglo = (Vector *)malloc(sizeof(Vector));
-
-  for (int q = 0; q < n; q++){
+    
+    Vector * arreglo = (Vector *)malloc(sizeof(Vector));
     arreglo->capacidad = n;
+    
     arreglo->datos = calloc(n, sizeof(int));
-  }
 
   return arreglo;
 }
