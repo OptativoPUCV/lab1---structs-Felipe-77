@@ -37,3 +37,9 @@ exercises.c:28:9: error: unused variable ‘max’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 5f92420
+Thu 09 Mar 2023 03:57:16 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|6
+total_score: 10/70
+bd4cc74
