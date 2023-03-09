@@ -79,7 +79,7 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  Vector * arreglo = malloc(n, sizeof(Vector));
+  Vector * arreglo = malloc(n);
 
   for (int q = 0; q < n; q++){
     arreglo->capacidad = n;
