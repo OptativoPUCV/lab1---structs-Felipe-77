@@ -78,3 +78,23 @@ Thu 09 Mar 2023 04:15:18 PM UTC:
  tests:  3|4
 total_score: 30/70
 04bcfbd
+Thu 09 Mar 2023 04:23:44 PM UTC: 
+ exercises.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:83:10: error: ‘(Vector *)&arreglo’ is a pointer; did you mean to use ‘->’?
+   83 |   arreglo.capacidad = n;
+      |          ^
+      |          ->
+exercises.c:84:3: error: ‘arrelog’ undeclared (first use in this function); did you mean ‘arreglo’?
+   84 |   arrelog->datos = calloc(n, sizeof(int));
+      |   ^~~~~~~
+      |   arreglo
+exercises.c:84:3: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:86:10: error: function returns address of local variable [-Werror=return-local-addr]
+   86 |   return arreglo;
+      |          ^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+5201de4

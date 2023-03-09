@@ -79,7 +79,11 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+  Vector arreglo[n];
+  arreglo.capacidad = n;
+  arrelog->datos = calloc(n, sizeof(int));
+
+  return arreglo;
 }
 
 /*
