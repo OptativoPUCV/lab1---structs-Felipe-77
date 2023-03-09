@@ -8,3 +8,32 @@ Thu 09 Mar 2023 03:50:35 PM UTC:
  tests:  1|6
 total_score: 10/70
 ebdecda
+Thu 09 Mar 2023 03:56:46 PM UTC: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘arrayMaxMin’:
+exercises.c:28:9: error: ‘max’ redeclared as different kind of symbol
+   28 |     int max = 0;
+      |         ^~~
+exercises.c:27:42: note: previous definition of ‘max’ was here
+   27 | void arrayMaxMin(int *array, int n, int *max, int *min) {
+      |                                     ~~~~~^~~
+exercises.c:29:9: error: ‘min’ redeclared as different kind of symbol
+   29 |     int min = array[0];
+      |         ^~~
+exercises.c:27:52: note: previous definition of ‘min’ was here
+   27 | void arrayMaxMin(int *array, int n, int *max, int *min) {
+      |                                               ~~~~~^~~
+exercises.c:32:5: error: expected expression before ‘}’ token
+   32 |     }
+      |     ^
+exercises.c:29:9: error: unused variable ‘min’ [-Werror=unused-variable]
+   29 |     int min = array[0];
+      |         ^~~
+exercises.c:28:9: error: unused variable ‘max’ [-Werror=unused-variable]
+   28 |     int max = 0;
+      |         ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+5f92420
