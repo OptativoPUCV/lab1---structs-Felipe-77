@@ -278,3 +278,14 @@ exercises.c:116:40: error: ‘Vector’ has no member named ‘daros’; did you
       |                                        datos
 Compilation failed
 33d6281
+Thu 09 Mar 2023 08:30:30 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:116:40: error: ‘Vector’ has no member named ‘daros’; did you mean ‘datos’?
+  116 |         c->datos[q] = a->datos[q] + b->daros[q];
+      |                                        ^~~~~
+      |                                        datos
+Compilation failed
+10053d0
