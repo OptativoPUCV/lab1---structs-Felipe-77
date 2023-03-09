@@ -60,3 +60,15 @@ Thu 09 Mar 2023 04:03:43 PM UTC:
  tests:  2|5
 total_score: 20/70
 042596c
+Thu 09 Mar 2023 04:15:06 PM UTC: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:60:3: error: implicit declaration of function ‘strcopy’; did you mean ‘strcpy’? [-Werror=implicit-function-declaration]
+   60 |   strcopy(p->nombre, nombre);
+      |   ^~~~~~~
+      |   strcpy
+cc1: all warnings being treated as errors
+Compilation failed
+c6b2223
