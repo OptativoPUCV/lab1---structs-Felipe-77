@@ -54,3 +54,9 @@ exercises.c:37:8: error: ‘mayor’ may be used uninitialized in this function 
 cc1: all warnings being treated as errors
 Compilation failed
 1ed6ff9
+Thu 09 Mar 2023 04:03:43 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+042596c
