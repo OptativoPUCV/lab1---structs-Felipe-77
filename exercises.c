@@ -132,7 +132,8 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
             asignarValor(vectorA, q, a1);
             asignarValor(vectorB, q, b1);
         }
-        else{
+        else
+        {
             asignarValor(vectorA, q, a2);
             asignarValor(vectorB, q, b2);
         }
